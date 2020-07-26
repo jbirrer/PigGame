@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 54, 71);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.playername-1, .playername-0 {
+    font-size: 4rem;
+}
+
+.playing-field {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem
+}
+
+.title:hover {
+    color: rgb(132, 226, 255);
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.btn-restart, .btn-again, .btn-keep {
+    color: white;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1rem, solid, whitesmoke;
+}
+
+.btn-restart:hover, .btn-again:hover, .btn-keep:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+}
+
+.dice {
+    font-size: 4rem;
+}
+
+.punkt-gross {
+    font-size: 12rem;
+    color: saddlebrown
+}
